@@ -1,0 +1,18 @@
+{
+  "name": "easybank-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "homepage": "https://github.com/FarahAkl/EasyBank-landing-page.git/public",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
