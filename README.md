@@ -6,3 +6,5 @@ git clone "https://github.com/FarahAkl/EasyBank-landing-page.git"
 npm install
 npm run build
 ```
+to see the website:
+https://easybanklanding13.netlify.app/
